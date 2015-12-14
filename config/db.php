@@ -2,7 +2,7 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=angular_spa',
+    'dsn' => 'mysql:host=localhost;dbname=hi',
     'username' => 'root',
     'password' => '',
     'charset' => 'utf8',

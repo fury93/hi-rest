@@ -1,13 +1,5 @@
-Yii 2 Basic Application Template
+HI REST API
 ================================
-
-Yii 2 Basic Application Template is a skeleton Yii 2 application best for
-rapidly creating small projects.
-
-The template contains the basic features including user login/logout and a contact page.
-It includes all commonly used configurations that would allow you to focus on adding new
-features to your application.
-
 
 DIRECTORY STRUCTURE
 -------------------
@@ -25,27 +17,8 @@ DIRECTORY STRUCTURE
       web/                contains the entry script and Web resources
 
 
-
-REQUIREMENTS
-------------
-
-The minimum requirement by this application template that your Web server supports PHP 5.4.0.
-
-
 INSTALLATION
 ------------
-
-### Install from an Archive File
-
-Extract the archive file downloaded from [yiiframework.com](http://www.yiiframework.com/download/) to
-a directory named `basic` that is directly under the Web root.
-
-You can then access the application through the following URL:
-
-~~~
-http://localhost/basic/web/
-~~~
-
 
 ### Install via Composer
 
@@ -77,9 +50,9 @@ Edit the file `config/db.php` with real data, for example:
 ```php
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=yii2basic',
+    'dsn' => 'mysql:host=localhost;dbname=hi',
     'username' => 'root',
-    'password' => '1234',
+    'password' => '',
     'charset' => 'utf8',
 ];
 ```
